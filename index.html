@@ -209,7 +209,7 @@
     </footer> -->
 
     <!-- Assignment from 24-27  -->
-    <main>
+    <!-- <main>
         <section>
             <form  method="POST">
                 <div>
@@ -262,6 +262,111 @@
                     <input type="reset" value="Empty Form">
                     <input type="submit" value="Send Data">
                 </div>
+            </form>
+        </section>
+    </main> -->
+
+    <!-- Assignment from 28-30  -->
+    <main>
+        <section>
+            <form action="" method="GET">
+                <div>
+                    <lable for="username">User Name</lable>
+                    <input type="text" name="username" id="username" required placeholder="Username" autofocus minlength="5" maxlength="20" value="Basiony">
+                </div>
+
+                <hr>
+
+                <div>
+                    <lable for="email">Email</lable>
+                    <input type="email" name="email" id="email" required placeholder="Email" value="o@o.com" readonly>
+                </div>
+
+                <hr>
+
+                <div>
+                    <input type="text" name="token" id="token" hidden value="b92f1fc2fce391ad7af633723afd3055">
+                </div>
+
+                <div class="programming_lang">
+                    <div>
+                        <input type="checkbox" name="skills" id="html" value="html">
+                        <label for="html">HTML</label>
+                    </div>
+                    
+                    <div>
+                        <input type="checkbox" name="skills" id="css" value="css">
+                        <label for="css">CSS</label>
+                    </div>
+                    
+                    <div>
+                        <input type="checkbox" name="skills" id="js" value="js" checked>
+                        <label for="js">JavaScript</label>
+                    </div>
+                    
+                    <div>
+                        <input type="checkbox" name="skills" id="bootstrap" value="bootstrap">
+                        <label for="bootstrap">BootStrap</label>
+                    </div>
+                    
+                    <div>
+                        <input type="checkbox" name="skills" id="problem_solving" value="problem_solving">
+                        <label for="problem_solving">Problem Solving</label>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="jobs">
+                    <div>
+                        <input type="radio" name="job" id="front_end" value="front_end" checked>
+                        <label for="front_end">Front End Developer</label>
+                    </div>
+                    
+                    <div>
+                        <input type="radio" name="job" id="back_end" value="back_end">
+                        <label for="back_end">Back End Developer</label>
+                    </div>
+                    
+                    <div>
+                        <input type="radio" name="job" id="business_analyst" value="business_analyst">
+                        <label for="business_analyst">Business Analyst</label>
+                    </div>
+                    
+                    <div>
+                        <input type="radio" name="job" id="project_manager" value="project_manager">
+                        <label for="project_manager">Project Manager</label>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div>
+                    <label for="versions">Choose Programming Languages Versions</label>
+                    <select name="versions" id="versions" multiple>
+                        <optgroup label="PHP">
+                            <option value="php5.0">v5.0</option>
+                            <option value="php6.0">v6.0</option>
+                            <option value="php7.0">v7.0</option>
+                        </optgroup>
+                        <optgroup label="Python">
+                            <option value="py2.0">v2.0</option>
+                            <option value="py3.0">v3.0</option>
+                            <option value="py3.9">v3.9</option>
+                        </optgroup>
+                    </select>
+                </div>
+
+                <hr>
+
+                <div class="text_area">
+                    <textarea name="notes" id="notes" cols="40" rows="10" placeholder="Write Here Why You Want To Learn Programming"></textarea>
+                </div>
+
+                <footer>
+                    <input type="reset" value="Empty Form">
+                    <input type="submit" value="Send">
+                </footer>
             </form>
         </section>
     </main>
